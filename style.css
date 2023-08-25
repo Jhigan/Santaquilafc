@@ -4,13 +4,13 @@ html {
 }
 
 .president-message {
-  background-color: rgb(92, 92, 92);
-  color: white;
+  background-color: goldenrod;
+  color: black;
   width: 121rem;
   height: 20rem;
   padding: 5px;
-  font-size: 1.8rem;
-  font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: bold;
   font-family: Roboto;
   border: none;
   max-width: 100%;
@@ -22,32 +22,32 @@ html {
 
 
 .mission {
-  color: rgb(255, 38, 0);
-  font-size: 2.2rem;
+  color: goldenrod;
+  font-size: 1.7rem;
   font-weight: 1500;
   text-align: center;
   background-color: black;
-  width: 121rem;
+  width: rem;
 }
 
 .mission-content {
-  color: rgb(255, 38, 0);
+  color: goldenrod;
   background-color: black;
-  font-size: 1.9rem;
+  font-size: 1.3rem;
   font-weight: 1000;
   width: 81rem;
   text-align: center;
 }
 
 .news {
-  color: brown;
+  color: goldenrod;
   font-style: italic;
   background-color: black;
   margin: 0.2rem 0.5rem;
   padding: 0.5rem 5rem;
   padding-right: 1rem;
   width: 122rem;
-  font-size: 2.3rem;
+  font-size: 1.6rem;
   max-width: 100%;
   vertical-align: top;
   display: flex;
@@ -57,31 +57,15 @@ html {
 
 }
 
-button {
-  background none;
-  border: 0.7rem solid;
-  border-color: rgb(0, 115, 255);
-  border-radius: 1rem;
-  padding: 0.4rem;
-  margin: 0rem;
-  font-size: 1.4rem;
-  font-weight: 900;
-  font-style: inherit;
-  cursor: pointer;
-}
 
-button :hover {
-  background: blue;
-  padding: 2rem 4rem;
-}
 
 .member-login {
-  font-size: 2.2rem;
+  font-size: 0.2rem;
   color: black;
 }
 
 .footer {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 a {
@@ -101,9 +85,9 @@ a {
   display: block;
   color: gold;
   text-align: center;
-  padding: 4rem 4rem;
+  padding: 2rem 1.5rem;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 /* Change the color of links on hover */
@@ -132,7 +116,7 @@ a {
 /* When the screen is less than 600px wide, 
 stack the links and the search field
  vertically instead of horizontally */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px)
 
   .topnav a,
   .topnav input[type=text] {
@@ -144,16 +128,11 @@ stack the links and the search field
     padding: 10rem;
   }
 
-  .topnav input[type=text] {
-    border: 1rem solid #ccc;
-  }
-}
-
 
 .hero-section {
   background-image: url(img/team\ photo.jpg);
-  height: 30rem;
-  width: 119rem;
+  height: 20rem;
+  width: 79rem;
   font-size: 3.2rem;
   background-size: contain;
   background-repeat: repeat;
@@ -168,45 +147,6 @@ stack the links and the search field
   background-image: ;
 }
 
-.accordion {
-  background-color: rgba(54, 53, 55, 0.893);
-  color: white;
-  cursor: pointer;
-  padding: 2rem;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-  height: 2rem;
-}
-
-.active,
-.accordion:hover {
-  background-color: #ccc;
-}
-
-.accordion:after {
-  content: '\02795';
-  /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-tabs :hover membership {
-  background: blue;
-}
 
 .panel {
   padding: 0 18px;
@@ -218,20 +158,21 @@ tabs :hover membership {
 
 
 .badge {
-  height: 15rem;
-  width: 15rem;
+  height: 50rem;
+  width: 50rem;
   padding-left: 1rem;
   margin-left: 50rem;
 }
 
-.tabs{
+.tabs {
   font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    background: url(img/team\ photo.jpg);
-    background-size: contain;
-    background-position: center;
-    list-style: none;
-    float: none;
+  font-size: 1.5rem;
+  background: url(img/team\ photo.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  list-style: none;
+  float: none;
 }
 
 .socials {
@@ -245,7 +186,27 @@ tabs :hover membership {
 }
 
 .president-span {
-  color: red;
+  color: brown;
   font-style: italic;
   font-family: Roboto;
+  font-weight: bold;
 }
+
+.social-span {
+  color: brown;
+  font-style: italic;
+  font-size: 200%;
+  text-align: center;
+  font-weight: bold;
+  float: inherit;
+}
+
+.socials {  
+}
+
+
+
+
+
+
+
